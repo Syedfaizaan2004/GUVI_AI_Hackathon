@@ -6,7 +6,7 @@ import os
 from app.inference import predict_from_bytes
 
 # 1. Define your API Key
-API_KEY = "sk_hack_9f83kdf93jdf93"
+API_KEY = os.getenv("API_KEY", "9f83kdf93jdf93")
 
 app = FastAPI(title="AI-Generated Voice Detection API")
 
