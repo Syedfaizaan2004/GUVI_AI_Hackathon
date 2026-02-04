@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+torch
+librosa
+numpy
+soundfile
+audioread
+pydantic
+python-multipart
+miniaudio
