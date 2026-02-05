@@ -13,7 +13,7 @@ FIXED_FRAMES = 300
 MIN_DURATION = 2.0
 MAX_DURATION = 6.0
 
-TMP_DIR = "_tmp_audio"
+TMP_DIR = "/tmp/voice_detection_audio"
 os.makedirs(TMP_DIR, exist_ok=True)
 
 
