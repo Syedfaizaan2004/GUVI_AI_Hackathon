@@ -6,9 +6,9 @@ A secure, RESTful API built with **FastAPI** and **PyTorch** to detect whether a
 
 ## 🔗 Live Demo (For Judges)
 
-* **Base URL:** `https://your-app-name.onrender.com` *(Replace with your actual Live URL)*
+* **Base URL:** `https://guvi-voice-ai-detector.onrender.com/docs` *(Replace with your actual Live URL)*
 * **Test Endpoint:** `/api/voice-detection`
-* **API Key:** `sk_hack_9f83kdf93jdf93`
+* **API Key:** `9f83kdf93jdf93`
 
 ---
 
@@ -106,7 +106,7 @@ Start the FastAPI server using Uvicorn:
 uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
-The API will be live at `http://localhost:8000`.
+The API will be live at `https://guvi-voice-ai-detector.onrender.com/docs`.
 
 ---
 
