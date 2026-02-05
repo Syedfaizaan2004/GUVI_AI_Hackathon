@@ -38,6 +38,8 @@ async def custom_http_exception_handler(request, exc):
 @app.post("/api/voice-detection", dependencies=[Depends(verify_api_key)])
 def voice_detection_json(request: VoiceJSONRequest):
     
+    request.language = request.language.title()
+
     if request.language not in SUPPORTED_LANGUAGES:
         raise HTTPException(400, "Unsupported language")
 
@@ -72,6 +74,9 @@ async def voice_detection_multipart(
     language: str,
     file: UploadFile = File(...)
 ):
+    
+    language = language.title()
+    
     if language not in SUPPORTED_LANGUAGES:
         raise HTTPException(400, "Unsupported language")
 
