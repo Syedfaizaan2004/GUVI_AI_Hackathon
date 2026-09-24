@@ -4,14 +4,6 @@ A secure, RESTful API built with **FastAPI** and **PyTorch** to detect whether a
 
 ---
 
-## 🔗 Live Demo (For Judges)
-
-* **Base URL:** `https://guvi-voice-ai-detector.onrender.com/docs` *(Replace with your actual Live URL)*
-* **Test Endpoint:** `/api/voice-detection`
-* **API Key:** `9f83kdf93jdf93`
-
----
-
 ## 🚀 Features
 
 * **Dual Mode Inference:** Supports both JSON (Base64 encoded) and standard File Uploads.
